@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-text{
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bg{
+  background-color: rgb(244, 226, 236);
+}
+
+h2{
+  text-align: center;
+  color: rgb(110, 95, 107);
+}
+
+h1{
+  color:rgb(110, 95, 107);
+}
+
+.box{
+  margin-right:auto;
+    margin-left:auto;
+    width:200px; /* Set this property to whatever you like */
+}
+
+.search{
+  color:rgb(59, 60, 61);
+  font-weight: 500;
+}
+
+.background{
+  background-color: rgb(251, 246, 251);
+}
+
+p{
+  font-family:sans-serif;
+}

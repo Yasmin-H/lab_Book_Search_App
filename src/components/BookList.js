@@ -7,8 +7,8 @@ const BookList = ({books}) => {
 
     return (
         <>
-        <p>Your Search Result</p>
-         <ul>{bookComponent}</ul>
+        <p class="search">Your Search Result</p>
+          <ul class="background">{bookComponent}</ul>
         </>
       );
 }

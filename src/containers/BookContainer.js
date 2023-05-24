@@ -30,11 +30,12 @@ const BookContainer = () => {
 
     return (
         <>
+        <div class="bg">
         <h1>BookHub</h1>
         <hr/>
         <h2>Find Your Book Of Choice</h2>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "</p>
-        <form onSubmit={handleFormSubmit}>
+        <p class="main-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "</p>
+        <form onSubmit={handleFormSubmit} class="box">
             <input 
                 type="text"
                 name="search"
@@ -42,7 +43,8 @@ const BookContainer = () => {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}/>
         </form>
-        <BookList books={books} />
+        <BookList books={books} class="bg-2" />
+        </div>
         </>
       );
 }
